@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - db.sqlite [2]" uuid="555fba64-cf23-4ea7-9833-6e655157f94d">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+      <schema id="1">
+        <visible>1</visible>
+      </schema>
+      <table id="2" parent="1" name="adresy"/>
+      <table id="3" parent="1" name="sqlite_sequence"/>
+      <column id="4" parent="2" name="id_adresu">
+        <data-type>INTEGER(0,-1)|4</data-type>
+      </column>
+      <column id="5" parent="2" name="lat">
+        <data-type>DOUBLE(0,-1)|6</data-type>
+      </column>
+      <column id="6" parent="2" name="lon">
+        <data-type>DOUBLE(0,-1)|6</data-type>
+      </column>
+      <column id="7" parent="2" name="country">
+        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+      </column>
+      <column id="8" parent="2" name="city">
+        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+      </column>
+      <column id="9" parent="2" name="road">
+        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+      </column>
+      <column id="10" parent="2" name="house_number">
+        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+      </column>
+      <key id="11" parent="2">
+        <columns>id_adresu</columns>
+        <primary>1</primary>
+      </key>
+      <column id="12" parent="3" name="name">
+        <data-type>(0,-1)|12</data-type>
+      </column>
+      <column id="13" parent="3" name="seq">
+        <data-type>(0,-1)|12</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
