@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="Sqlite (Xerial) - db.sqlite [2]" uuid="555fba64-cf23-4ea7-9833-6e655157f94d">
+  <data-source name="Sqlite (Xerial) - db.sqlite" uuid="17535499-bfeb-4818-9f1c-a4a86cdb6d1b">
     <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
@@ -19,16 +19,16 @@
         <data-type>DOUBLE(0,-1)|6</data-type>
       </column>
       <column id="7" parent="2" name="country">
-        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+        <data-type>VARCHAR(20)(0,-1)|12</data-type>
       </column>
       <column id="8" parent="2" name="city">
-        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+        <data-type>VARCHAR(20)(0,-1)|12</data-type>
       </column>
       <column id="9" parent="2" name="road">
-        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+        <data-type>VARCHAR(20)(0,-1)|12</data-type>
       </column>
       <column id="10" parent="2" name="house_number">
-        <data-type>VARCHAR(20) (0,-1)|12</data-type>
+        <data-type>VARCHAR(20)(0,-1)|12</data-type>
       </column>
       <key id="11" parent="2">
         <columns>id_adresu</columns>

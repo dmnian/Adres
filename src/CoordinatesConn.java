@@ -46,7 +46,8 @@ public class CoordinatesConn implements Runnable {
                     cord = aQueue.poll();
                 }
             }
-          String json = getJson(cord.lat, cord.lon);
+            String json = getJson(cord.lat, cord.lon);
+            System.out.println("wykonuje watek: "+Thread.currentThread().getName());
 
             synchronized (this) {
                 adressModelList.add(AdressModel.getAdressModel(json));
